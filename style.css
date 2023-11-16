@@ -1,0 +1,88 @@
+:root {
+  --nav-clr: #263548;
+  --bg-clr: #1b2532;
+  --accent-clr: #ff5959;
+  --navlink-clr: #ffffffbf;
+}
+body {
+  background-color: var(--bg-clr);
+  font-family: Nunito;
+  overflow-x: hidden;
+}
+
+/* Navbar CSS */
+#mainNavbar {
+  font-size: 1.7rem !important;
+  font-weight: 200 !important;
+}
+#mainNavbar .navbar-brand {
+  color: var(--accent-clr) !important;
+  font-size: 1.7rem !important;
+}
+#mainNavbar .navbar-brand:hover {
+  color: var(--accent-clr) !important;
+}
+#mainNavbar .navbar-brand:active {
+  color: var(--accent-clr) !important;
+}
+
+#mainNavbar .nav-link {
+  color: var(--navlink-clr);
+}
+#mainNavbar .nav-link:hover {
+  color: var(--accent-clr);
+}
+#mainNavbar.scrolled {
+  background-color: var(--nav-clr);
+  transition: background 0.5s;
+}
+/* Navbar CSS End */
+
+.about-txt {
+  text-wrap: balance;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+/* Media Queries */
+
+/* Media Queries Section Margin */
+@media (min-width: 768px) {
+  section {
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Queries Hero Section */
+@media (min-width: 768px) {
+  #headingGroup h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 900px) {
+  #headingGroup h1 {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1150px) {
+  #headingGroup h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 1300px) {
+  #headingGroup h1 {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 1500px) {
+  #headingGroup h1 {
+    font-size: 4em;
+  }
+}
