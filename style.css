@@ -4,10 +4,13 @@
   --accent-clr: #ff5959;
   --navlink-clr: #ffffffbf;
 }
+html , body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 body {
   background-color: var(--bg-clr);
   font-family: Nunito;
-  overflow-x: hidden;
 }
 
 /* Navbar CSS */
